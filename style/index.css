@@ -4,6 +4,7 @@
     text-decoration: none;
     border: none;
 
+    
     cursor: pointer;
 
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -52,6 +53,8 @@
     display: flex;
     justify-content: center;
     margin: 20px 5px 20px 20px;
+    
+    cursor: pointer;
 
 }
 .item_palavras:hover{
@@ -62,6 +65,7 @@
 .palavras{
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: aliceblue;
+    
 }
 
 dialog{
@@ -75,6 +79,8 @@ dialog{
 dialog::backdrop{
     background-color: rgb(0, 0, 0,0.5);
 }
+
+
 
 #close_software_legado{
     margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;

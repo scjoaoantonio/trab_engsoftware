@@ -171,3 +171,48 @@ btn_projeto_de_bd.onclick = function (){
 close_projeto_de_bd.onclick = function(){
     modal_projeto_de_bd.close();
 }
+
+const close_testes_de_componentes = document.querySelector('.close_testes_de_componentes');
+const btn_testes_de_componentes = document.querySelector('#btn_testes_de_componentes');
+const modal_testes_de_componentes = document.querySelector('#modal_testes_de_componentes');
+
+btn_testes_de_componentes.onclick = function (){
+    modal_testes_de_componentes.showModal();
+}
+
+close_testes_de_componentes.onclick = function(){
+    modal_testes_de_componentes.close();
+}
+const close_testes_de_sistemas = document.querySelector('.close_testes_de_sistemas');
+const btn_testes_de_sistemas = document.querySelector('#btn_testes_de_sistemas');
+const modal_testes_de_sistemas = document.querySelector('#modal_testes_de_sistemas');
+
+btn_testes_de_sistemas.onclick = function (){
+    modal_testes_de_componentes.showModal();
+}
+
+close_testes_de_sistemas.onclick = function(){
+    modal_testes_de_componentes.close();
+}
+const close_testes_de_aceitacao = document.querySelector('.close_testes_de_aceitacao');
+const btn_testes_de_aceitacao = document.querySelector('#btn_testes_de_aceitacao');
+const modal_testes_de_aceitacao = document.querySelector('#modal_testes_de_aceitacao');
+
+btn_testes_de_aceitacao.onclick = function (){
+    modal_testes_de_aceitacao.showModal();
+}
+
+close_testes_de_aceitacao.onclick = function(){
+    modal_testes_de_aceitacao.close();
+}
+const close_uml = document.querySelector('.close_uml');
+const btn_uml = document.querySelector('#btn_uml');
+const modal_uml = document.querySelector('#modal_uml');
+
+btn_uml.onclick = function (){
+    modal_uml.showModal();
+}
+
+close_uml.onclick = function(){
+    modal_uml.close();
+}
