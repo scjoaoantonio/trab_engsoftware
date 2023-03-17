@@ -18,11 +18,12 @@
     display: flex;
     flex-direction: column;
     justify-items: auto;
+    background-color: azure;
 }
 
 .container_letras{
     width: 98%;
-    padding: 20px 1% 20px 1%;
+    padding: 10px 1% 10px 1%;
     background-color: #371655;
     display: flex;
     justify-content: space-around;
@@ -40,10 +41,12 @@
 
 .container_palavras{
     width: 25%;
-    height: 100%;
+    height: 90vh;
 
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+
 }
 
 .item_palavras{
@@ -51,10 +54,12 @@
     box-shadow: 1px 1px 1px 1px rgb(0, 0, 0,0.2);
     padding: 20px 40px 20px 40px;
     display: flex;
+    
     justify-content: center;
     margin: 20px 5px 20px 20px;
     
     cursor: pointer;
+    
 
 }
 .item_palavras:hover{
@@ -65,19 +70,23 @@
 .palavras{
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: aliceblue;
-    
 }
 
 dialog{
     border: none;
     border-radius: 0.5rem;
-    box-shadow: 0 0 1em rgb(0, 0, 0,0.5);
+    box-shadow: 0 0 1em rgb(0, 0, 0,1);
     width: 80%;
     z-index: 2;
+
+    font-size: large;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
 }
 
 dialog::backdrop{
-    background-color: rgb(0, 0, 0,0.5);
+    background-color: rgb(0, 0, 0,0.7);
 }
 
 

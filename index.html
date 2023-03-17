@@ -50,7 +50,8 @@
         <section class="Word">
             <div id="letraA">
                 <div class='container_palavras'>
-                    <button id=""><ul class="item_palavras"><li class="palavras">A</li></ul></button>
+                    <button id="btn_app_stand_alone"><ul class="item_palavras"><li class="palavras">Aplicações stand-alone</li></ul></button>
+                    <button id="btn_app_interativas"><ul class="item_palavras"><li class="palavras">Aplicações interativas baseadas em transações</li></ul></button>
                 </div>
             </div>
             <div id="letraB">
@@ -151,6 +152,12 @@
                 <div class='container_palavras'>
                     <button id="btn_software"><ul class="item_palavras"><li class="palavras">Software</li></ul></button>
                     <button id="btn_software_legado"><ul class="item_palavras"><li class="palavras">Software Legado</li></ul></button>
+                    <button id="btn_sistemas_de_ce"><ul class="item_palavras"><li class="palavras">Sistemas de controle embarcados</li></ul></button>
+                    <button id="btn_sistemas_de_pl"><ul class="item_palavras"><li class="palavras">Sistemas de processamento em lotes (batch)</li></ul></button>
+                    <button id="btn_sistemas_de_entretenimento"><ul class="item_palavras"><li class="palavras">Sistemas de entretenimento</li></ul></button>
+                    <button id="btn_sistemas_de_ms"><ul class="item_palavras"><li class="palavras">Sistemas para modelagem e simulação</li></ul></button>
+                    <button id="btn_sistemas_de_dados"><ul class="item_palavras"><li class="palavras">Sistemas de coleta de dados e análise</li></ul></button>
+                    <button id="btn_sistemas_de_sistemas"><ul class="item_palavras"><li class="palavras">Sistemas de sistemas</li></ul></button>
                 </div>
             </div>
             <div id="letraT">
@@ -350,6 +357,54 @@
                     UML (Unified Modeling Language) é uma linguagem de modelagem visual usada na engenharia de software para representar sistemas de software por meio de diagramas. É uma linguagem padrão da indústria que fornece uma notação gráfica para modelagem, documentação, especificação e visualização de sistemas de software.
                 </p>
                 <button class="close_uml" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_app_stand_alone">
+                <p>
+                    Aplicações stand-alone, ou aplicativos stand-alone, são programas de software que são executados em um único computador sem a necessidade de conexão com a internet ou com outros computadores em rede. Esses aplicativos são instalados no computador local e são capazes de executar suas funções sem depender de um servidor ou de outros aplicativos de software.
+                </p>
+                <button class="close_app_stand_alone" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_app_interativas">
+                <p>
+                    Aplicações interativas baseadas em transações são programas de software que interagem com usuários por meio de transações. Essas transações geralmente envolvem entrada de dados pelo usuário, processamento de informações, atualização de dados e exibição de resultados.
+                </p>
+                <button class="close_app_interativas" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_sistemas_de_ce">
+                <p>
+                    Sistemas de controle embarcados são sistemas eletrônicos projetados para controlar, monitorar e automatizar processos em tempo real, geralmente em equipamentos e dispositivos eletrônicos. Esses sistemas são usados em uma ampla variedade de aplicações, como automação industrial, automóveis, aeronaves, sistemas de navegação e dispositivos médicos.
+                </p>
+                <button class="close_sistemas_de_ce" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_sistemas_de_pl">
+                <p>
+                    Sistemas de processamento em lotes (batch) são sistemas de computação que executam uma grande quantidade de tarefas em lote, ou seja, em um grupo ou conjunto. Essas tarefas geralmente são executadas sem interação direta do usuário e são executadas em sequência, uma após a outra, até que todas sejam concluídas.
+                </p>
+                <button class="close_sistemas_de_pl" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_sistemas_de_entretenimento">
+                <p>
+                    Sistemas de entretenimento no contexto da engenharia de software são sistemas de computação que oferecem entretenimento aos usuários. Esses sistemas podem ser softwares, aplicativos ou plataformas que permitem que os usuários desfrutem de jogos, música, filmes, programas de TV e outras formas de entretenimento em seus dispositivos eletrônicos.
+                </p>
+                <button class="close_sistemas_de_entretenimento" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_sistemas_de_ms">
+                <p>
+                    Sistemas para modelagem e simulação no contexto da engenharia de software são sistemas computacionais que permitem modelar e simular processos complexos em várias áreas do conhecimento, como engenharia, ciências físicas, biologia, economia e outros. Esses sistemas são utilizados para criar modelos matemáticos que representam processos reais, com o objetivo de entender melhor o comportamento desses processos e prever o resultado de diferentes cenários.
+                </p>
+                <button class="close_sistemas_de_ms" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_sistemas_de_dados">
+                <p>
+                    Sistemas de coleta de dados e análise no contexto da engenharia de software são sistemas computacionais que permitem a coleta, armazenamento, processamento e análise de grandes quantidades de dados. Esses sistemas são utilizados em diversas áreas, como ciência de dados, inteligência artificial, análise de negócios, entre outras, e permitem que as organizações tomem decisões mais informadas e baseadas em dados.
+                </p>
+                <button class="close_sistemas_de_dados" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_sistemas_de_sistemas">
+                <p>
+                    Sistemas de sistemas (também conhecidos como sistemas de sistemas complexos) são sistemas compostos por múltiplos sistemas interconectados, que trabalham juntos para realizar uma função maior e mais complexa. Na engenharia de software, os sistemas de sistemas podem ser encontrados em diferentes domínios, como aeroespacial, defesa, transporte, energia, saúde, entre outros.
+                </p>
+                <button class="close_sistemas_de_sistemas" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
             </dialog>
         </section>
         

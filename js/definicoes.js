@@ -216,3 +216,91 @@ btn_uml.onclick = function (){
 close_uml.onclick = function(){
     modal_uml.close();
 }
+const close_app_stand_alone = document.querySelector('.close_app_stand_alone');
+const btn_app_stand_alone = document.querySelector('#btn_app_stand_alone');
+const modal_app_stand_alone = document.querySelector('#modal_app_stand_alone');
+
+btn_app_stand_alone.onclick = function (){
+    modal_app_stand_alone.showModal();
+}
+
+close_app_stand_alone.onclick = function(){
+    modal_app_stand_alone.close();
+}
+const close_app_interativas = document.querySelector('.close_app_interativas');
+const btn_app_interativas = document.querySelector('#btn_app_interativas');
+const modal_app_interativas = document.querySelector('#modal_app_interativas');
+
+btn_app_interativas.onclick = function (){
+    modal_app_interativas.showModal();
+}
+
+close_app_interativas.onclick = function(){
+    modal_app_interativas.close();
+}
+const close_sistemas_de_ce = document.querySelector('.close_sistemas_de_ce');
+const btn_sistemas_de_ce = document.querySelector('#btn_sistemas_de_ce');
+const modal_sistemas_de_ce = document.querySelector('#modal_sistemas_de_ce');
+
+btn_sistemas_de_ce.onclick = function (){
+    modal_sistemas_de_ce.showModal();
+}
+
+close_sistemas_de_ce.onclick = function(){
+    modal_sistemas_de_ce.close();
+}
+const close_sistemas_de_pl = document.querySelector('.close_sistemas_de_pl');
+const btn_sistemas_de_pl = document.querySelector('#btn_sistemas_de_pl');
+const modal_sistemas_de_pl = document.querySelector('#modal_sistemas_de_pl');
+
+btn_sistemas_de_pl.onclick = function (){
+    modal_sistemas_de_pl.showModal();
+}
+
+close_sistemas_de_pl.onclick = function(){
+    modal_sistemas_de_pl.close();
+}
+const close_sistemas_de_entretenimento = document.querySelector('.close_sistemas_de_entretenimento');
+const btn_sistemas_de_entretenimento = document.querySelector('#btn_sistemas_de_entretenimento');
+const modal_sistemas_de_entretenimento = document.querySelector('#modal_sistemas_de_entretenimento');
+
+btn_sistemas_de_entretenimento.onclick = function (){
+    modal_sistemas_de_entretenimento.showModal();
+}
+
+close_sistemas_de_entretenimento.onclick = function(){
+    modal_sistemas_de_entretenimento.close();
+}
+const close_sistemas_de_ms = document.querySelector('.close_sistemas_de_ms');
+const btn_sistemas_de_ms = document.querySelector('#btn_sistemas_de_ms');
+const modal_sistemas_de_ms = document.querySelector('#modal_sistemas_de_ms');
+
+btn_sistemas_de_ms.onclick = function (){
+    modal_sistemas_de_ms.showModal();
+}
+
+close_sistemas_de_ms.onclick = function(){
+    modal_sistemas_de_ms.close();
+}
+const close_sistemas_de_dados = document.querySelector('.close_sistemas_de_dados');
+const btn_sistemas_de_dados = document.querySelector('#btn_sistemas_de_dados');
+const modal_sistemas_de_dados = document.querySelector('#modal_sistemas_de_dados');
+
+btn_sistemas_de_dados.onclick = function (){
+    modal_sistemas_de_dados.showModal();
+}
+
+close_sistemas_de_dados.onclick = function(){
+    modal_sistemas_de_dados.close();
+}
+const close_sistemas_de_sistemas = document.querySelector('.close_sistemas_de_sistemas');
+const btn_sistemas_de_sistemas = document.querySelector('#btn_sistemas_de_sistemas');
+const modal_sistemas_de_sistemas = document.querySelector('#modal_sistemas_de_sistemas');
+
+btn_sistemas_de_sistemas.onclick = function (){
+    modal_sistemas_de_sistemas.showModal();
+}
+
+close_sistemas_de_sistemas.onclick = function(){
+    modal_sistemas_de_sistemas.close();
+}
