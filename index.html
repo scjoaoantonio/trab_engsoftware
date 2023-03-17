@@ -66,11 +66,17 @@
             <div id="letraD">
                 <div class='container_palavras'>
                     <button id="btn_dominio_de_aplicacao"><ul class="item_palavras"><li class="palavras">Domínio de Aplicação</li></ul></button>
+                    <button id="btn_desenvolvimento"><ul class="item_palavras"><li class="palavras">Desenvolvimento</li></ul></button>
                 </div>
             </div>
             <div id="letraE">
                 <div class='container_palavras'>
                     <button id="btn_engenharia_de_software"><ul class="item_palavras"><li class="palavras">Engenharia de Software</li></ul></button>
+                    <button id="btn_especificacao"><ul class="item_palavras"><li class="palavras">Especificação</li></ul></button>
+                    <button id="btn_evolucao"><ul class="item_palavras"><li class="palavras">Evolução</li></ul></button>
+                    <button id="btn_elicitacao"><ul class="item_palavras"><li class="palavras">Elicitação e análise de requisitos</li></ul></button>
+                    <button id="btn_estudo_de_viabilidade"><ul class="item_palavras"><li class="palavras">Estudo de Viabilidade</li></ul></button>
+                    <button id="btn_especificacao_de_requisitos"><ul class="item_palavras"><li class="palavras">Especificação de Requisitos</li></ul></button>
                 </div>
             </div>
             <div id="letraF">
@@ -125,7 +131,10 @@
             </div>
             <div id="letraP">
                 <div class='container_palavras'>
-                    <button id=""><ul class="item_palavras"><li class="palavras">P</li></ul></button>
+                    <button id="btn_projeto_de_arquitetura"><ul class="item_palavras"><li class="palavras">Projeto de arquitetura</li></ul></button>
+                    <button id="btn_projeto_de_interface"><ul class="item_palavras"><li class="palavras">Projeto de interface</li></ul></button>
+                    <button id="btn_projeto_de_componente"><ul class="item_palavras"><li class="palavras">Projeto de componente</li></ul></button>
+                    <button id="btn_projeto_de_bd"><ul class="item_palavras"><li class="palavras">Projeto de banco de dados</li></ul></button>
                 </div>
             </div>
             <div id="letraQ">
@@ -156,7 +165,8 @@
             </div>
             <div id="letraV">
                 <div class='container_palavras'>
-                    <button id=""><ul class="item_palavras"><li class="palavras">V</li></ul></button>
+                    <button id="btn_validacao"><ul class="item_palavras"><li class="palavras">Validação</li></ul></button>
+                    <button id="btn_validacao_de_requisitos"><ul class="item_palavras"><li class="palavras">Validação de requisitos</li></ul></button>
                 </div>
             </div>
             <div id="letraW">
@@ -206,8 +216,111 @@
                 </p>
                 <button class="close_engenharia_de_software" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
             </dialog>
+            <dialog id="modal_especificacao">
+                <p>
+                    A especificação se refere ao processo de descrever formalmente e detalhadamente os requisitos e comportamentos de um sistema de software, de modo que possam ser compreendidos e implementados por desenvolvedores de software. A especificação pode incluir uma descrição funcional do software, incluindo requisitos de entrada, saída e comportamento esperado em diferentes situações. Também pode incluir informações sobre a arquitetura do software, como módulos, classes e interfaces. A especificação é fundamental para garantir que o software atenda aos requisitos dos usuários e funcione corretamente em diferentes cenários e contextos de uso. Além disso, a especificação pode ser usada como base para testes, validação e verificação do software.
+                </p>
+                <button class="close_especificacao" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_desenvolvimento">
+                <p>
+                    O desenvolvimento é o processo de criar software, desde a concepção da ideia até a entrega do produto final. Esse processo inclui a análise dos requisitos do software, o design da solução, a implementação do código fonte, a realização de testes para garantir a qualidade do software e a manutenção do software após a entrega.
+                </p>
+                <button class="close_desenvolvimento" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_validacao">
+                <p>
+                    A validação se refere ao processo de avaliar se um software ou sistema atende aos requisitos especificados pelo usuário ou cliente. O objetivo da validação é garantir que o software ou sistema seja adequado ao propósito pretendido e que atenda às necessidades dos usuários.
+                </p>
+                <button class="close_validacao" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_evolucao">
+                <p>
+                    A evolução se refere ao processo contínuo de mudança e melhoria de um software existente. A evolução de software é uma atividade importante, uma vez que muitos sistemas de software precisam ser atualizados regularmente para atender a novas demandas, requisitos e tecnologias.
+                </p>
+                <button class="close_evolucao" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_estudo_de_viabilidade">
+                <p>
+                    Análise preliminar e crítica que tem como objetivo avaliar a possibilidade e a viabilidade técnica, econômica, social e legal de se desenvolver um software. Esse estudo é realizado antes do início do projeto de desenvolvimento de software e é uma das primeiras etapas do processo de engenharia de software.
+                </p>
+                <p>
+                    Com base no estudo de viabilidade, é possível decidir se um projeto de software deve ser aprovado ou não. Se o projeto for considerado viável, ele será iniciado e prosseguirá para as etapas de análise de requisitos, design, implementação, teste e manutenção. Se o projeto não for viável, pode ser abandonado ou reavaliado em uma data futura.
+                </p>
+                <p>
+                    O estudo de viabilidade é uma etapa crucial do processo de engenharia de software, pois ajuda a garantir que o projeto de software seja iniciado com uma base sólida e realista. Além disso, o estudo de viabilidade pode ajudar a identificar riscos e desafios antecipadamente, permitindo que a equipe de desenvolvimento tome medidas proativas para mitigá-los.
+                </p>
+                <button class="close_estudo_de_viabilidade" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_elicitacao">
+                <p>
+                    Elicitação e análise de requisitos são etapas cruciais no processo de engenharia de software. Essas atividades estão relacionadas à identificação, coleta e análise das necessidades e expectativas dos usuários finais para o software a ser desenvolvido. A elicitação de requisitos refere-se ao processo de identificar, descobrir e extrair os requisitos do software a partir de fontes como usuários, clientes e stakeholders. A análise de requisitos, por sua vez, envolve a interpretação e a documentação dos requisitos levantados e a identificação de conflitos e inconsistências entre eles.
+                </p>
+                <p>
+                    Em resumo, a elicitação e análise de requisitos são etapas críticas do processo de engenharia de software. Essas atividades ajudam a garantir que o software a ser desenvolvido atenda às necessidades e expectativas dos usuários, permitindo que o desenvolvimento de software seja mais eficiente e eficaz.
+                </p>
+                <button class="close_elicitacao" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_especificacao_de_requisitos">
+                <p>
+                    A especificação de requisitos é uma etapa importante na engenharia de software que envolve a documentação completa e precisa dos requisitos do software a ser desenvolvido. Essa documentação descreve os requisitos do software em detalhes, incluindo suas funcionalidades, desempenho, confiabilidade, usabilidade, segurança e outras características importantes.
+                </p>
+                <p>
+                    A especificação de requisitos é uma atividade crítica no desenvolvimento de software, pois fornece uma base sólida para o design, implementação e teste do software. Uma especificação de requisitos clara e completa ajuda a garantir que o software seja desenvolvido de acordo com as expectativas dos usuários e das partes interessadas, e pode ajudar a prevenir problemas futuros, como a necessidade de retrabalho ou atrasos no projeto.
+                </p>
+                <p>
+                    Em resumo, a especificação de requisitos é uma documentação completa e precisa dos requisitos do software a ser desenvolvido, que ajuda a garantir que o software atenda às necessidades e expectativas dos usuários e partes interessadas.
+                </p>
+                    
+                <button class="close_especificacao_de_requisitos" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_validacao_de_requisitos">
+                <p>
+                    A validação de requisitos é uma etapa crucial na engenharia de software que envolve a verificação de que os requisitos do software são precisos, completos, consistentes e atendem às necessidades e expectativas dos usuários e partes interessadas. Essa etapa ajuda a garantir que o software desenvolvido atenda aos requisitos estabelecidos e funcione de acordo com as expectativas do usuário final.
+                </p>
+                <p>
+                    A validação de requisitos pode incluir uma variedade de atividades, como revisões, inspeções, testes e validações por parte dos usuários e partes interessadas. Essas atividades podem ser realizadas ao longo de todo o processo de desenvolvimento de software, desde a elicitação e análise de requisitos até a implementação e teste do software.
+                </p>                    
+                <button class="close_validacao_de_requisitos" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_projeto_de_arquitetura">
+                <p>
+                    O projeto de arquitetura no contexto da engenharia de software é o processo de definição da estrutura fundamental e organização do sistema de software a ser desenvolvido. Ele é responsável por definir a arquitetura do software, que é a base para a construção do sistema e está diretamente relacionada às necessidades dos usuários e às características do ambiente em que será executado.
+                </p>
+                <p>
+                    O projeto de arquitetura de software inclui a definição de componentes de software, seus relacionamentos e interações, bem como a definição de interfaces e protocolos para comunicação entre esses componentes. O objetivo é projetar uma arquitetura que seja escalável, flexível, segura, de fácil manutenção e expansão.              
+                </p>
+                <button class="close_projeto_de_arquitetura" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_projeto_de_interface">
+                <p>
+                    O projeto de interface no contexto da engenharia de software é a etapa em que se define como o usuário interage com o sistema de software. O objetivo do projeto de interface é projetar uma interface gráfica de usuário (GUI) que seja intuitiva, fácil de usar e permita aos usuários realizar suas tarefas de forma eficiente e eficaz.
+                </p>
+                <p>        
+                    O projeto de interface envolve a definição dos elementos da interface gráfica, como menus, botões, campos de entrada de dados, ícones e outros elementos visuais. Também envolve a definição da navegação do usuário na interface, bem como a organização das informações na tela para facilitar a compreensão e o uso.
+                </p>
+                <button class="close_projeto_de_interface" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_projeto_de_componente">
+                <p>
+                    O projeto de componente no contexto da engenharia de software é a etapa em que os componentes de software individuais são projetados e especificados em detalhes. Um componente de software é uma parte modular e independente de um sistema de software que pode ser desenvolvido, testado e mantido separadamente.
+                </p>
+                <p>
+                    O projeto de componente envolve a definição dos detalhes de como um componente específico do sistema funcionará e como ele se integrará com os outros componentes do sistema. Isso inclui a especificação dos requisitos de entrada e saída do componente, bem como a definição da lógica de processamento que ocorre dentro do componente.
+                </p>
+                <button class="close_projeto_de_componente" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_projeto_de_bd">
+                <p>
+                    O projeto de banco de dados no contexto da engenharia de software é a etapa em que se define a estrutura e organização dos dados que serão armazenados em um banco de dados, bem como as relações entre esses dados. O objetivo do projeto de banco de dados é garantir que o banco de dados possa ser eficiente e efetivamente utilizado pelo sistema de software, além de garantir a integridade, confiabilidade e segurança dos dados.
+                </p>
+                <p>
+                    O projeto de banco de dados é importante para garantir que o sistema de software possa armazenar e acessar os dados de forma eficiente e eficaz. Ele permite que os desenvolvedores de software gerenciem grandes quantidades de dados de forma organizada e segura, além de garantir a integridade e a consistência dos dados ao longo do tempo.
+                </p>
+                <button class="close_projeto_de_bd" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
         </section>
-
+        
     </section>
 </body>
 </html>

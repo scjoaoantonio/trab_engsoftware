@@ -44,3 +44,130 @@ btn_engenharia_de_software.onclick = function (){
 close_engenharia_de_software.onclick = function(){
     modal_engenharia_de_software.close();
 }
+
+const close_especificacao = document.querySelector('.close_especificacao');
+const btn_especificacao = document.querySelector('#btn_especificacao');
+const modal_especificacao = document.querySelector('#modal_especificacao');
+
+btn_especificacao.onclick = function (){
+    modal_especificacao.showModal();
+}
+
+close_especificacao.onclick = function(){
+    modal_especificacao.close();
+}
+
+const close_desenvolvimento = document.querySelector('.close_desenvolvimento');
+const btn_desenvolvimento = document.querySelector('#btn_desenvolvimento');
+const modal_desenvolvimento = document.querySelector('#modal_desenvolvimento');
+
+btn_desenvolvimento.onclick = function (){
+    modal_desenvolvimento.showModal();
+}
+
+close_desenvolvimento.onclick = function(){
+    modal_desenvolvimento.close();
+}
+const close_validacao = document.querySelector('.close_validacao');
+const btn_validacao = document.querySelector('#btn_validacao');
+const modal_validacao = document.querySelector('#modal_validacao');
+
+btn_validacao.onclick = function (){
+    modal_validacao.showModal();
+}
+
+close_validacao.onclick = function(){
+    modal_validacao.close();
+}
+const close_evolucao = document.querySelector('.close_evolucao');
+const btn_evolucao = document.querySelector('#btn_evolucao');
+const modal_evolucao = document.querySelector('#modal_evolucao');
+
+btn_evolucao.onclick = function (){
+    modal_evolucao.showModal();
+}
+
+close_evolucao.onclick = function(){
+    modal_evolucao.close();
+}
+const close_estudo_de_viabilidade = document.querySelector('.close_estudo_de_viabilidade');
+const btn_estudo_de_viabilidade = document.querySelector('#btn_estudo_de_viabilidade');
+const modal_estudo_de_viabilidade = document.querySelector('#modal_estudo_de_viabilidade');
+
+btn_estudo_de_viabilidade.onclick = function (){
+    modal_estudo_de_viabilidade.showModal();
+}
+
+close_estudo_de_viabilidade.onclick = function(){
+    modal_estudo_de_viabilidade.close();
+}
+const close_elicitacao = document.querySelector('.close_elicitacao');
+const btn_elicitacao = document.querySelector('#btn_elicitacao');
+const modal_elicitacao = document.querySelector('#modal_elicitacao');
+
+btn_elicitacao.onclick = function (){
+    modal_elicitacao.showModal();
+}
+
+close_elicitacao.onclick = function(){
+    modal_elicitacao.close();
+}
+
+const close_validacao_de_requisitos = document.querySelector('.close_validacao_de_requisitos');
+const btn_validacao_de_requisitos = document.querySelector('#btn_validacao_de_requisitos');
+const modal_validacao_de_requisitos = document.querySelector('#modal_validacao_de_requisitos');
+
+btn_validacao_de_requisitos.onclick = function (){
+    modal_validacao_de_requisitos.showModal();
+}
+
+close_validacao_de_requisitos.onclick = function(){
+    modal_validacao_de_requisitos.close();
+}
+
+const close_projeto_de_arquitetura = document.querySelector('.close_projeto_de_arquitetura');
+const btn_projeto_de_arquitetura = document.querySelector('#btn_projeto_de_arquitetura');
+const modal_projeto_de_arquitetura = document.querySelector('#modal_projeto_de_arquitetura');
+
+btn_projeto_de_arquitetura.onclick = function (){
+    modal_projeto_de_arquitetura.showModal();
+}
+
+close_projeto_de_arquitetura.onclick = function(){
+    modal_projeto_de_arquitetura.close();
+}
+
+const close_projeto_de_interface = document.querySelector('.close_projeto_de_interface');
+const btn_projeto_de_interface = document.querySelector('#btn_projeto_de_interface');
+const modal_projeto_de_interface = document.querySelector('#modal_projeto_de_interface');
+
+btn_projeto_de_interface.onclick = function (){
+    modal_projeto_de_interface.showModal();
+}
+
+close_projeto_de_interface.onclick = function(){
+    modal_projeto_de_interface.close();
+}
+const close_projeto_de_componente = document.querySelector('.close_projeto_de_componente');
+const btn_projeto_de_componente = document.querySelector('#btn_projeto_de_componente');
+const modal_projeto_de_componente = document.querySelector('#modal_projeto_de_componente');
+
+btn_projeto_de_componente.onclick = function (){
+    modal_projeto_de_componente.showModal();
+}
+
+close_projeto_de_componente.onclick = function(){
+    modal_projeto_de_componente.close();
+}
+
+const close_projeto_de_bd = document.querySelector('.close_projeto_de_bd');
+const btn_projeto_de_bd = document.querySelector('#btn_projeto_de_bd');
+const modal_projeto_de_bd = document.querySelector('#modal_projeto_de_bd');
+
+btn_projeto_de_bd.onclick = function (){
+    modal_projeto_de_bd.showModal();
+}
+
+close_projeto_de_bd.onclick = function(){
+    modal_projeto_de_bd.close();
+}
