@@ -304,3 +304,15 @@ btn_sistemas_de_sistemas.onclick = function (){
 close_sistemas_de_sistemas.onclick = function(){
     modal_sistemas_de_sistemas.close();
 }
+
+const close_relacionamento_entre_classes = document.querySelector('.close_relacionamento_entre_classes');
+const btn_relacionamento_entre_classes = document.querySelector('#btn_relacionamento_entre_classes');
+const modal_relacionamento_entre_classes = document.querySelector('#modal_relacionamento_entre_classes');
+
+btn_relacionamento_entre_classes.onclick = function (){
+    modal_relacionamento_entre_classes.showModal();
+}
+
+close_relacionamento_entre_classes.onclick = function(){
+    modal_relacionamento_entre_classes.close();
+}
