@@ -375,9 +375,61 @@ btn_modelos_eng.onclick = function (){
 close_modelos_eng.onclick = function(){
     modal_modelos_eng.close();
 }
+const close_desempenho = document.querySelector('.close_desempenho');
+const btn_desempenho = document.querySelector('#btn_desempenho');
+const modal_desempenho = document.querySelector('#modal_desempenho');
+
+btn_desempenho.onclick = function (){
+    modal_desempenho.showModal();
+}
+
+const close_security = document.querySelector('.close_security');
+const btn_security = document.querySelector('#btn_security');
+const modal_security = document.querySelector('#modal_security');
+
+btn_security.onclick = function (){
+    modal_security.showModal();
+}
+
+close_security.onclick = function(){
+    modal_security.close();
+}
+
+const close_safety = document.querySelector('.close_safety');
+const btn_safety = document.querySelector('#btn_safety');
+const modal_safety = document.querySelector('#modal_safety');
+
+btn_safety.onclick = function (){
+    modal_safety.showModal();
+}
+
+close_safety.onclick = function(){
+    modal_safety.close();
+}
 
 
+const close_disponibilidade = document.querySelector('.close_disponibilidade');
+const btn_disponibilidade = document.querySelector('#btn_disponibilidade');
+const modal_disponibilidade = document.querySelector('#modal_disponibilidade');
+
+btn_disponibilidade.onclick = function (){
+    modal_disponibilidade.showModal();
+}
+
+close_disponibilidade.onclick = function(){
+    modal_disponibilidade.close();
+}
 
 
+const close_manutenibilidade = document.querySelector('.close_manutenibilidade');
+const btn_manutenibilidade = document.querySelector('#btn_manutenibilidade');
+const modal_manutenibilidade = document.querySelector('#modal_manutenibilidade');
 
+btn_manutenibilidade.onclick = function (){
+    modal_manutenibilidade.showModal();
+}
+
+close_manutenibilidade.onclick = function(){
+    modal_manutenibilidade.close();
+}
 

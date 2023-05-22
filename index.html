@@ -68,6 +68,8 @@
                 <div class='container_palavras'>
                     <button id="btn_dominio_de_aplicacao"><ul class="item_palavras"><li class="palavras">Domínio de Aplicação</li></ul></button>
                     <button id="btn_desenvolvimento"><ul class="item_palavras"><li class="palavras">Desenvolvimento</li></ul></button>
+                    <button id="btn_desempenho"><ul class="item_palavras"><li class="palavras">Desempenho</li></ul></button>
+                    <button id="btn_disponibilidade"><ul class="item_palavras"><li class="palavras">Disponibilidade</li></ul></button>
                 </div>
             </div>
             <div id="letraE">
@@ -78,6 +80,7 @@
                     <button id="btn_elicitacao"><ul class="item_palavras"><li class="palavras">Elicitação e análise de requisitos</li></ul></button>
                     <button id="btn_estudo_de_viabilidade"><ul class="item_palavras"><li class="palavras">Estudo de Viabilidade</li></ul></button>
                     <button id="btn_especificacao_de_requisitos"><ul class="item_palavras"><li class="palavras">Especificação de Requisitos</li></ul></button>
+                    <button id="btn_modelos_eng"><ul class="item_palavras"><li class="palavras">Engenharia dirigida a modelos</li></ul></button>
                 </div>
             </div>
             <div id="letraF">
@@ -121,7 +124,7 @@
                     <button id="btn_modelos_de_interacao"><ul class="item_palavras"><li class="palavras">Modelos de interação</li></ul></button>
                     <button id="btn_modelos_estruturais"><ul class="item_palavras"><li class="palavras">Modelos estruturais</li></ul></button>
                     <button id="btn_modelos_comportamentais"><ul class="item_palavras"><li class="palavras">Modelos comportamentais</li></ul></button>
-                    <button id="btn_modelos_eng"><ul class="item_palavras"><li class="palavras">Engenharia dirigida a modelos</li></ul></button>
+                    <button id="btn_manutenibilidade"><ul class="item_palavras"><li class="palavras">Manutenibilidade</li></ul></button>
                 </div>
             </div>
             <div id="letraN">
@@ -162,6 +165,8 @@
                     <button id="btn_sistemas_de_ms"><ul class="item_palavras"><li class="palavras">Sistemas para modelagem e simulação</li></ul></button>
                     <button id="btn_sistemas_de_dados"><ul class="item_palavras"><li class="palavras">Sistemas de coleta de dados e análise</li></ul></button>
                     <button id="btn_sistemas_de_sistemas"><ul class="item_palavras"><li class="palavras">Sistemas de sistemas</li></ul></button>
+                    <button id="btn_security"><ul class="item_palavras"><li class="palavras">Segurança da informação (security)</li></ul></button>
+                    <button id="btn_safety"><ul class="item_palavras"><li class="palavras">Segurança (safety)</li></ul></button>
                 </div>
             </div>
             <div id="letraT">
@@ -472,6 +477,36 @@
                     A Engenharia Dirigida a Modelos (MDSE - Model-Driven Software Engineering) é uma abordagem de desenvolvimento de software que enfatiza o uso de modelos como artefatos principais. Nessa abordagem, os modelos são criados e manipulados em diferentes níveis de abstração, representando diferentes aspectos do sistema. Os modelos são usados para gerar automaticamente o código-fonte, a documentação e outros artefatos do sistema. A MDSE visa aumentar a produtividade, a qualidade e a reutilização no desenvolvimento de software, promovendo uma abordagem baseada em modelos em todo o ciclo de vida do desenvolvimento.
                 </p>
                 <button class="close_modelos_eng" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_desempenho">
+                <p>
+                    O desempenho em engenharia de software refere-se à capacidade de um sistema de software executar suas tarefas dentro dos limites de tempo especificados. Está relacionado à eficiência e velocidade com que o sistema responde às solicitações dos usuários e processa as operações. A medição e o gerenciamento do desempenho são essenciais para garantir que o sistema atenda aos requisitos de tempo de resposta e eficiência estabelecidos.
+                </p>
+                <button class="close_desempenho" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_security">
+                <p>
+                    A segurança da informação é uma disciplina da engenharia de software que trata da proteção de dados e informações contra acessos não autorizados, modificações indevidas, divulgação não autorizada, entre outros ataques. Envolve a implementação de medidas, como criptografia, autenticação, controle de acesso e auditorias, para garantir a confidencialidade, integridade e disponibilidade dos dados e sistemas.
+                </p>
+                <button class="close_security" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_safety">
+                <p>
+                    A segurança, no contexto da engenharia de software, refere-se à garantia de que um sistema de software não cause danos físicos ou materiais às pessoas, ao ambiente ou a outros ativos. Especialmente aplicável a sistemas críticos, como os utilizados em indústrias automotiva, aeroespacial e médica, a segurança busca identificar e mitigar os riscos associados ao funcionamento do sistema, evitando acidentes e falhas catastróficas.
+                </p>
+                <button class="close_safety" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_disponibilidade">
+                <p>
+                    A disponibilidade de um sistema de software é a capacidade de estar operacional e acessível para uso quando necessário. Envolve garantir que o sistema esteja funcionando corretamente, sem interrupções não planejadas, e que os usuários possam acessá-lo e utilizá-lo conforme necessário. A engenharia de software busca projetar sistemas com alta disponibilidade, por meio de estratégias de redundância, tolerância a falhas e recuperação de desastres.
+                </p>
+                <button class="close_disponibilidade" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
+            </dialog>
+            <dialog id="modal_manutenibilidade">
+                <p>
+                    A manutenibilidade refere-se à facilidade com que um sistema de software pode ser modificado, corrigido e aprimorado ao longo do tempo. Um sistema com alta manutenibilidade é aquele que permite que as alterações sejam feitas de forma eficiente, sem afetar negativamente sua integridade e funcionalidades existentes. Isso envolve o uso de boas práticas de desenvolvimento, design modular, documentação adequada e adoção de padrões de codificação. A manutenibilidade é importante para reduzir custos e tempo gastos na manutenção contínua do sistema.
+                </p>
+                <button class="close_manutenibilidade" style="margin-left: 50%; margin-top: 1%; font-size: medium; background-color:#371655;">OK</button>
             </dialog>
             
         </section>
