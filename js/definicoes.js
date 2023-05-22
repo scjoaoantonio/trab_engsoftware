@@ -316,3 +316,68 @@ btn_relacionamento_entre_classes.onclick = function (){
 close_relacionamento_entre_classes.onclick = function(){
     modal_relacionamento_entre_classes.close();
 }
+const close_modelos_de_contexto = document.querySelector('.close_modelos_de_contexto');
+const btn_modelos_de_contexto = document.querySelector('#btn_modelos_de_contexto');
+const modal_modelos_de_contexto = document.querySelector('#modal_modelos_de_contexto');
+
+btn_modelos_de_contexto.onclick = function (){
+    modal_modelos_de_contexto.showModal();
+}
+
+close_modelos_de_contexto.onclick = function(){
+    modal_modelos_de_contexto.close();
+}
+
+const close_modelos_de_interacao = document.querySelector('.close_modelos_de_interacao');
+const btn_modelos_de_interacao = document.querySelector('#btn_modelos_de_interacao');
+const modal_modelos_de_interacao = document.querySelector('#modal_modelos_de_interacao');
+
+btn_modelos_de_interacao.onclick = function (){
+    modal_modelos_de_interacao.showModal();
+}
+
+close_modelos_de_interacao.onclick = function(){
+    modal_modelos_de_interacao.close();
+}
+
+const close_modelos_estruturais = document.querySelector('.close_modelos_estruturais');
+const btn_modelos_estruturais = document.querySelector('#btn_modelos_estruturais');
+const modal_modelos_estruturais = document.querySelector('#modal_modelos_estruturais');
+
+btn_modelos_estruturais.onclick = function (){
+    modal_modelos_estruturais.showModal();
+}
+
+close_modelos_estruturais.onclick = function(){
+    modal_modelos_estruturais.close();
+}
+
+const close_modelos_comportamentais = document.querySelector('.close_modelos_comportamentais');
+const btn_modelos_comportamentais = document.querySelector('#btn_modelos_comportamentais');
+const modal_modelos_comportamentais = document.querySelector('#modal_modelos_comportamentais');
+
+btn_modelos_comportamentais.onclick = function (){
+    modal_modelos_comportamentais.showModal();
+}
+
+close_modelos_comportamentais.onclick = function(){
+    modal_modelos_comportamentais.close();
+}
+
+const close_modelos_eng = document.querySelector('.close_modelos_eng');
+const btn_modelos_eng = document.querySelector('#btn_modelos_eng');
+const modal_modelos_eng = document.querySelector('#modal_modelos_eng');
+
+btn_modelos_eng.onclick = function (){
+    modal_modelos_eng.showModal();
+}
+
+close_modelos_eng.onclick = function(){
+    modal_modelos_eng.close();
+}
+
+
+
+
+
+
